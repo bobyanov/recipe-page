@@ -1,0 +1,117 @@
+body {
+	background-color: hsl(30, 54%, 90%);
+	font-family: Outfit;
+}
+.block {
+	width: 680px;
+	height: 1840px;
+	background-color: white;
+	border: 0px;
+	border-radius: 20px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+}
+#omlet {
+	max-width: 90%;
+	position: relative;
+	top: 30px;
+	border: 0px;
+	border-radius: 20px;
+	align-self: center;
+}
+.block h1 {
+	position: relative;
+	top: 60px;
+	display: flex;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+.block #text1 {
+	position: relative;
+	top: 60px;
+	display: flex;
+	margin-left: 35px;
+	margin-right: 35px;
+	color: hsl(30, 10%, 34%);
+}
+.block #TimeUL {
+	position: absolute;
+	top: 580px;
+	display: flex;
+	margin-left: 15px;
+	margin-right: 35px;
+	flex-direction: column;
+	line-height: 45px;
+}
+.block #PrepTime {
+	background-color: hsl(330, 100%, 98%);
+	height: 200px;
+	margin: 10px;
+	padding-left: 30px;
+	padding-top: 20px;
+	border: 0px;
+	border-radius: 15px;
+	color: hsl(332, 51%, 32%);
+}
+.block #IngredientsList {
+	position: absolute;
+	top: 790px;
+	display: flex;
+	margin-left: 15px;
+	margin-right: 35px;
+	flex-direction: column;
+	line-height: 45px;
+	color: hsl(30, 10%, 34%);
+}
+.block hr {
+	color: hsl(30, 54%, 90%);
+	overflow: visible;
+}
+#Instructions {
+	position: absolute;
+	top: 1120px;
+	line-height: 33px;
+	color: hsl(30, 10%, 34%);
+}
+#InstructionsTitle {
+	position: absolute;
+	top: 1050px;
+	font-family: Young serif;
+	color: hsl(14, 45%, 36%);
+}
+#NutritionTitle {
+	position: absolute;
+	top: 1480px;
+	font-family: Young serif;
+	color: hsl(14, 45%, 36%);
+}
+#Nutrition {
+	position: absolute;
+	top: 1590px;
+	color: hsl(14, 45%, 36%);
+	font-weight: 600;
+	width: 100%;
+}
+h3 {
+	position: absolute;
+	top: 1540px;
+	font-size: 16px;
+	margin-left: 35px;
+	color: hsl(30, 10%, 34%);
+}
+#Nutrition td {
+	border-bottom: 1px solid #ddd;
+	padding: 2% 4%;
+}
+#IngredientsTitle {
+	font-family: Young serif;
+	position: relative;
+	top: 50px;
+	font-size: 28px;
+	color: hsl(14, 45%, 36%);
+}
